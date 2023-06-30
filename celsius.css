@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+  font-family: poppins, sans-serif;
+  margin: 0px;
+  margin-left: 10px;
+}
+body{
+  background-image: url("/images/Simple\ Castle\ \(3840x2160\).png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h2{
+  margin-top: 10px;
+}
+
+.enter{
+  margin-top: 10px;
+}
+.box{
+  margin-left: 10px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  background-color: snow;
+  border-radius: 5px;
+}
+
+.Result{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 0px;
+  border: 2px solid black;
+  max-width: 310px;
+  margin-left: 10px;
+  border-radius: 3px;
+  background-color: rgb(229, 239, 239);
+}
+
+.result-btn{
+  margin-left: 8px;
+}
+
+.result-here{
+  margin-left: 10px;
+}
+.btn1{
+  margin-left: 5px;
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 12px;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn1:hover{
+  background-color: black;
+  color: white;
+}
+.btn2{
+  margin-left: 5px;
+  padding-left: 14px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 14px;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.btn2:hover{
+  background-color: black;
+  color: white;
+}
+
+.div-box{
+  flex-wrap: wrap;
+  margin-top: 30px;
+  border: 2px solid black;
+  max-width: 310px;
+  height: 90px;
+  border-radius: 3px;
+  background-color: rgb(243, 240, 237);
+}

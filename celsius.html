@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="celsius.js"></script>
+  <link rel="stylesheet" href="celsius.css">
+</head>
+<body>
+  <h2>Convert Temperature</h2>
+  <P class="second-heading">(Convert celsius to fahrenheit and fahrenheit to celsius)</P>
+  <div class="div-box">
+    <P class="enter">Enter here :</P>
+    <input class="box" id="input" oninput="getValue()">
+    <button class="btn1" onclick="
+      convertToCelsius()
+    ">C</button>
+    <button class="btn2" onclick="
+      convertToFahrenheit()
+    ">F</button>
+  </div>
+  <div class="Result">
+    <p class="result-here">Result : 
+        <p class="result-btn" id="demo"></p>
+    </p>
+  </div>
+  
+</body>
+</html>
